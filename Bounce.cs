@@ -15,7 +15,7 @@ public class Bounce : MonoBehaviour
     {
         
     }
-
+    //Een jump op collision van platform
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.GetComponent<Rigidbody2D>().velocity.y <= 0)
