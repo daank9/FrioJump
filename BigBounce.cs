@@ -6,6 +6,7 @@ public class BigBounce : MonoBehaviour
 {
     public float jumpForce = 40f;
 
+    //Grote jump op collision
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.relativeVelocity.y <= 0f)
