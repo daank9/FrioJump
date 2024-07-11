@@ -25,7 +25,7 @@ public class Destroy : MonoBehaviour
         
     }
 
-
+    //Hiermee worden platforms weggehaald bij collision met "de destroyer" en deze platforms worden dan random boven de camera view weer gerespawned zodat er oneindig lang platforms komen en gaan
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
