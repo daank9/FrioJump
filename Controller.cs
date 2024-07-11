@@ -15,6 +15,7 @@ public class Controller : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
+    // Dit is een standaard player movement script. Hiermaa kan Frio naar links en rechts bewegen
     // Update is called once per frame
     void FixedUpdate()
     {
